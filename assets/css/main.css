@@ -1603,7 +1603,7 @@ border-radius: 15px;}
 }
 
 /*--------------------------------------------------------------
-# Recent Blog Posts Section
+# maintenance
 --------------------------------------------------------------*/
 .recent-blog-posts .post-item {
   background: var(--surface-color);
@@ -1613,18 +1613,21 @@ border-radius: 15px;}
 
 .recent-blog-posts .post-item .post-img img {
   transition: 0.5s;
+  padding: 0 !important;
 }
 
 .recent-blog-posts .post-item .post-date {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  background-color: var(--accent-color);
+  right: 1%;
+  bottom: 2%;
+  background-color: #f7fcff;
   color: var(--contrast-color);
   text-transform: uppercase;
   font-size: 13px;
-  padding: 6px 12px;
+  padding:5px 0;
   font-weight: 500;
+  height: 60px;
+  border-radius: 30px;
 }
 
 .recent-blog-posts .post-item .post-content {

@@ -31,7 +31,54 @@
 </head>
 
 <body class="services-page">
+  <style>
+           
+    .custom-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    .main-display-image {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+    .custom-paragraph {
+        margin: 20px 0;
+        font-size: 18px;
+    }
+    .custom-swiper {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .custom-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f0f0f0;
+        height: 300px;
+    }
+    .custom-slide img {
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .slide-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
 
+.slide-title {
+margin-top: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #333;
+}
+
+</style>
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -90,327 +137,218 @@
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
-
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
+        <div class="custom-container" >
+          <img src="https://via.placeholder.com/1200x400" alt="صورة رئيسية" class="main-display-image" data-aos="fade-down" data-aos-delay="100">
+          <p class="custom-paragraph" data-aos="fade-down" data-aos-delay="100">هذا نص توضيحي تحت الصورة.</p>
+          
+          <div class="swiper custom-swiper"data-aos="fade-up" data-aos-delay="400">
+            
+              <div class="swiper-wrapper">
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-trowel-bricks"></i>
-              </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-helmet-safety"></i>
-              </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Features Cards Section -->
-    <section id="features-cards" class="features-cards section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <h3>Quasi eaque omnis</h3>
-            <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
-              <li><i class="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
-              <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-          </div><!-- End feature item-->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <h3>Et nemo dolores consectetur</h3>
-            <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
-
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span></li>
-              <li><i class="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span></li>
-              <li><i class="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span></li>
-            </ul>
-          </div><!-- End feature item-->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <h3>Staque laboriosam modi</h3>
-            <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span></li>
-              <li><i class="bi bi-check2"></i> <span>Debitis eos est est corrupti</span></li>
-            </ul>
-          </div><!-- End feature item-->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <h3>Dignissimos suscipit iste</h3>
-            <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span></li>
-              <li><i class="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span></li>
-              <li><i class="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span></li>
-            </ul>
-          </div><!-- End feature item-->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Features Cards Section -->
-
-    <!-- Alt Services 2 Section -->
-    <section id="alt-services-2" class="alt-services-2 section">
-
-      <div class="container">
-
-        <div class="row justify-content-around gy-4">
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-            <h3>Enim quis est voluptatibus aliquid consequatur</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-            <div class="row">
-
-              <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-easel flex-shrink-0"></i>
-                <div>
-                  <h4>Lorem Ipsum</h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
+              
+              <div class="swiper-slide custom-slide">
+                <div class="slide-content">
+                    <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                    <p class="slide-title">عنوان الصورة 1</p>
                 </div>
-              </div><!-- End Icon Box -->
+              </div>
 
-              <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-patch-check flex-shrink-0"></i>
-                <div>
-                  <h4>Nemo Enim</h4>
-                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiise</p>
+              <div class="swiper-slide custom-slide">
+                <div class="slide-content">
+                    <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                    <p class="slide-title">عنوان الصورة 1</p>
                 </div>
-              </div><!-- End Icon Box -->
+              </div>
 
-              <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
-                  <h4>Dine Pad</h4>
-                  <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit</p>
+              <div class="swiper-slide custom-slide">
+                <div class="slide-content">
+                    <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                    <p class="slide-title">عنوان الصورة 1</p>
                 </div>
-              </div><!-- End Icon Box -->
+              </div>
 
-              <div class="col-lg-6 icon-box d-flex">
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
-                  <h4>Tride clov</h4>
-                  <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit</p>
+              <div class="swiper-slide custom-slide">
+                <div class="slide-content">
+                    <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                    <p class="slide-title">عنوان الصورة 1</p>
                 </div>
-              </div><!-- End Icon Box -->
+              </div>
 
-            </div>
 
+              </div>
           </div>
+      </div>
+        <div class="custom-container" >
+          <img src="https://via.placeholder.com/1200x400" alt="صورة رئيسية" class="main-display-image" data-aos="fade-down" data-aos-delay="100">
+          <p class="custom-paragraph" data-aos="fade-down" data-aos-delay="100">هذا نص توضيحي تحت الصورة.</p>
+          
+          <div class="swiper custom-swiper"data-aos="fade-up" data-aos-delay="400">
+            
+              <div class="swiper-wrapper">
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+              </div>
+              
+              <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
 
-          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/features-3-2.jpg" alt="">
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+
+              </div>
           </div>
-
-        </div>
-
       </div>
 
-    </section><!-- /Alt Services 2 Section -->
+      <!-- //////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+        <div class="custom-container" >
+          <img src="https://via.placeholder.com/1200x400" alt="صورة رئيسية" class="main-display-image" data-aos="fade-down" data-aos-delay="100">
+          <p class="custom-paragraph" data-aos="fade-down" data-aos-delay="100">هذا نص توضيحي تحت الصورة.</p>
+          
+          <div class="swiper custom-swiper"data-aos="fade-up" data-aos-delay="400">
+            
+              <div class="swiper-wrapper">
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
                   </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              
+               <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
                   </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
                   </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
                   </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
                   </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
 
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+              </div>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
       </div>
 
-    </section><!-- /Testimonials Section -->
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="custom-container" >
+          <img src="https://via.placeholder.com/1200x400" alt="صورة رئيسية" class="main-display-image" data-aos="fade-down" data-aos-delay="100">
+          <p class="custom-paragraph" data-aos="fade-down" data-aos-delay="100">هذا نص توضيحي تحت الصورة.</p>
+          
+          <div class="swiper custom-swiper"data-aos="fade-up" data-aos-delay="400">
+            
+              <div class="swiper-wrapper">
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
 
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide custom-slide">
+                  <div class="slide-content">
+                      <img src="assets/img/blog/blog-1.jpg" alt="Image 1">
+                      <p class="slide-title">عنوان الصورة 1</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
   </main>
+
 
   <footer id="footer" class="footer dark-background">
 
@@ -418,79 +356,70 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">UpConstruction</span>
+            <span class="sitename"><span style="color: #E5C127;">EL</span>SAKHRA. </span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p> Elrashah, beside Alsalam </p>
+            <p>sewage treatment plant, Taksim Eldawagen</p>
+            <a href="tel:+201226621964"><p class="mt-3"><strong>Phone:</strong> <span style="color: aliceblue;">+2 01226621964</span></p>            </a>
+            <a href="mailto:Elsakhra.machinery.co@gmail.com"><p class="mt-3"><strong>Email:</strong> <span style="color: aliceblue;">Elsakhra.machinery.co@gmail.com</span></p></a>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-telephone"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-telephone"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-telephone"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
           </div>
+          <br>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service-details.html">Services</a></li>
+            <li><a href="#">Parts</a></li>
+            
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About US</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>MAINTENANCE</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="#">CRUSHERS</a></li>
+            <li><a href="#">Industrial</a></li>
+            <li><a href="#">concrete-pump</a></li>
+            <li><a href="#">EARTH moving</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>services</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="#">METAL FABRICATION</a></li>
+            
           </ul>
         </div>
+
+       
 
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">UpConstruction</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
+
 
   </footer>
 
@@ -512,6 +441,31 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var swiper = new Swiper(".custom-swiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1024: {
+                slidesPerView: 4,
+            }
+        },
+    });
+</script>
 
 </body>
 
